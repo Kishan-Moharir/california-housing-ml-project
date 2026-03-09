@@ -30,8 +30,39 @@ Random Forest performed better than Linear Regression.
 # Skills Used
 Python, Pandas, Matplotlib, Seaborn, Scikit-learn, Model Evaluation
 
+
+
+
+## Task 2 – Model Optimization & Comparison
+
+In this task multiple machine learning models were trained and compared
+using the California Housing Dataset.
+
+Models used:
+
+- Linear Regression
+- Ridge Regression
+- Decision Tree Regressor
+- Random Forest Regressor
+
+Evaluation Metrics:
+
+- Mean Squared Error (MSE)
+- Root Mean Squared Error (RMSE)
+- R² Score
+
+Best Model: Random Forest Regressor  
+R² Score Achieved: **0.8047**
+
+Additional Visualizations:
+
+- Model Comparison Graph
+- Actual vs Predicted Plot
+- Feature Importance Graph
+
 # Author
 Kishan
+
 
 
 Note: Random Forest model file is not uploaded due to GitHub file size limits.
