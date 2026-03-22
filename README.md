@@ -60,6 +60,15 @@ Additional Visualizations:
 - Actual vs Predicted Plot
 - Feature Importance Graph
 
+- ## Task-3: Model Validation and Hyperparameter Tuning
+
+- Applied Cross Validation (K-Fold)
+- Performed Hyperparameter Tuning using GridSearchCV
+- Compared baseline and tuned model
+- Performed Overfitting and Underfitting analysis
+- Final model justification provided
+- Achieved stable R² score (~0.80)
+
 # Author
 Kishan
 
