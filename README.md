@@ -167,8 +167,8 @@ To address class imbalance:
 
 ##  Files Included
 
-* `task4.ipynb` → Complete implementation
-* `Task4_Final_Report_Clean.pdf` → Detailed report
+*'AI_ML_TASK4_Classification_Evaluation.ipynb' → Complete implementation
+* 'AI_ML_Task4_Report.pdf' → Detailed report
 
 ---
 
