@@ -68,6 +68,116 @@ Additional Visualizations:
 - Performed Overfitting and Underfitting analysis
 - Final model justification provided
 - Achieved stable R² score (~0.80)
+- 
+
+#  Task 4: Classification Models, Evaluation Metrics & Imbalanced Data Handling
+
+##  Overview
+
+This project focuses on building and evaluating classification models using machine learning techniques. The objective is to understand how to properly evaluate models using different metrics and handle imbalanced datasets effectively.
+
+---
+
+##  Objectives
+
+* Build classification models for binary prediction
+* Evaluate models using multiple performance metrics
+* Understand limitations of accuracy
+* Analyze ROC Curve and AUC
+* Handle imbalanced datasets
+* Compare performance of different models
+
+---
+
+##  Models Used
+
+* **Logistic Regression**
+* **Decision Tree Classifier**
+
+---
+
+##  Dataset
+
+* Breast Cancer Dataset (from `sklearn`)
+* Binary classification problem:
+
+  * `0` → Malignant
+  * `1` → Benign
+
+---
+
+##  Evaluation Metrics
+
+The following metrics were used for evaluation:
+
+* **Confusion Matrix** → Shows TP, TN, FP, FN
+* **Precision** → Accuracy of positive predictions
+* **Recall** → Ability to detect all positive cases
+* **F1 Score** → Balance between precision and recall
+* **Accuracy** → Overall correctness
+* **ROC Curve** → Performance visualization
+* **AUC Score** → Model’s ability to distinguish classes
+
+---
+
+##  Why Accuracy is Not Enough
+
+Accuracy alone can be misleading, especially in imbalanced datasets. A model may show high accuracy but still fail to correctly classify minority class instances. Hence, additional metrics like Precision, Recall, and F1 Score are essential.
+
+---
+
+##  Handling Imbalanced Data
+
+To address class imbalance:
+
+* Used **`class_weight='balanced'`** in Logistic Regression
+* This improves the model’s ability to detect minority class samples
+
+---
+
+##  Model Comparison
+
+| Model               | Observation                                           |
+| ------------------- | ----------------------------------------------------- |
+| Logistic Regression | Stable performance with balanced precision and recall |
+| Decision Tree       | Higher variance, prone to overfitting                 |
+| Logistic (Balanced) | Improved recall and better handling of imbalance      |
+
+---
+
+##  Final Model Selection
+
+**Logistic Regression (with balanced class weights)** was selected as the final model because:
+
+* It provides a good balance between precision and recall
+* Performs consistently across evaluation metrics
+* Achieves strong ROC-AUC performance
+
+---
+
+##  Key Learnings
+
+* Importance of using multiple evaluation metrics
+* Understanding confusion matrix deeply
+* ROC-AUC as a strong performance indicator
+* Handling imbalanced datasets effectively
+* Model comparison and selection strategies
+
+---
+
+##  Files Included
+
+* `task4.ipynb` → Complete implementation
+* `Task4_Final_Report_Clean.pdf` → Detailed report
+
+---
+
+##  Conclusion
+
+This task demonstrates how to build reliable classification models by focusing on proper evaluation techniques and handling real-world challenges like imbalanced data. Logistic Regression proved to be a robust and effective solution for this problem.
+
+---
+
 
 # Author
 Kishan
